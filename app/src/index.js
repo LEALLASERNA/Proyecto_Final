@@ -1,7 +1,7 @@
 import Web3 from "/web3";
 import MiContrato from "../../build/contracts/miContrato.json";
 
-const dir_contrato = "0xb37a53fbFacAb7B647825a95eFebB7392c3564dd";
+const dir_contrato = "0x7E0b19B0c376b43d7a7b51D2ddfb26e11c4ebbE1";
 const mi_direccion = "0x1b97d6f688fbe2a6cb76ce31c4b8a7ee573b92a0";
 const url = "http://127.0.0.1:8545/";
 
