@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mi primera Dapp</title>
+<head>
+  <title>Mi primera Dapp</title>
 
-  </head>
-  <style>
-    input {
-      display: block;
-      margin-bottom: 12px;
-    }
-  </style>
-  <body>
-    <h1>Mi primera Dapp</h1>
-    
-    <select id="tarea">
-      <option value="0"> Elige una opcion </option>
-      <option value="1"> Guardar informacion </option>
-      <option value="2"> Consultar informacion </option>
-    </select>
+</head>
+<style>
+  input {
+    display: block;
+    margin-bottom: 12px;
+  }
+</style>
+<body>
+  <h1>Mi primera Dapp</h1>
 
-    <div id="guardarInfo" style="display:none">
-      <br><br>
-      <label for="fecha">Introduce fecha:</label>
-      <input type="text" id="fecha" name="fecha">
-      <br><br>
-      <label for="destino">Introduce destino:</label>
-      <input type="text" id="destino" name="destino">
-      <br><br>
-      <label for="precio">Introduce precio:</label>
-      <input type="text" id="precio" name="precio">
-      <br><br>
-      <button id="btGuardar">Registrar informacion</button>
-    </div>
+  <select id="tarea">
+    <option value ="0"> Elige una opcion </option>
+    <option value ="1"> Guardar informacion </option>
+    <option value ="2"> Consultar informacion </option>
+  </select>
 
-    <div id="consultarInfo" style="display:none">
-      <br><br>
-      <label for="fecha_ver">Introduce fecha:</label>
-      <input type="text" id="fecha_ver" name="fecha_ver">
-      <br><br>
-      <button id="btConsultar">Consultar informacion</button>
-      <br><br>
-      <p id="resultado"> </p>
-    </div>
+  <div id="guardarInfo" style="display:none">
+    <br><br>
+    <label for="fecha">Introduce fecha:</label>
+    <input type="text" id="fecha" name="fecha">
+    <br><br>
+    <label for="destino">Introduce destino:</label>
+    <input type="text" id="destino" name="destino">
+    <br><br>
+    <label for="precio">Introduce precio:</label>
+    <input type="text" id="precio" name="precio">
+    <br><br>
+    <button id="btGuardar">Registrar informacion</button>
+  </div>
 
-    <script src="index.js"></script>
-  </body>
+  <div id="consultarInfo" style="display:none">
+    <br><br>
+    <label for="fecha_ver">Introduce fecha:</label>
+    <input type="text" id="fecha_ver" name="fecha_ver">
+    <br><br>
+    <button id="btConsultar">Consultar informacion</button>
+    <br><br>
+    <p id="resultado"> </p>
+  </div>
+
+  <script src="index.js" type="module"></script>
+</body>
 </html>
